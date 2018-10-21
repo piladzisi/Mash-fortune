@@ -1,58 +1,56 @@
 <!DOCTYPE html>
-<html>  
+<html>
 <head>
   <meta charset="utf-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
 
   <title>Fortune Teller</title>
-  <link href="normalize.css" rel="stylesheet">
+   <link href="normalize.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
-  
 </head>
 <body>
 
   <h1 class="logo"><img src="glassball.png" /></h1>
-  <p class="description">Answer truthfully and your future will be foretold.</p>
+  <p class="description">Answer truthfully and your future will be foretold</p>
 
 <form action="" method="post" id="mash">
 
-<div id="answers" class="hide">
-  <p>Soon you will meet a <span id="friend"></span> with a <span id="present"></span> in<span id="place"></span> who owns a <span id="home"></span>.
- </div>
-<div class="bucket">
-
- <div class="choice-bucket">
-   <h4 class="highlight">Who is your best friend?</h4>
-    <input name="friend[]" type="text">
-    <input name="friend[]" type="text">
-    <input name="friend[]" type="text">
-    <input name="friend[]" type='text'>
+  <div id="answers" class="hide">
+      <p> Soon you will meet <span id="profession"></span> with a <span id="pet"></span> in <span id="location"></span> who owns a <span id="home"></span>.
   </div>
 
-  <div class="choice-bucket">
-    <h4 class="highlight">Where do you want to go for vacation?</h4>
-      <input name="place[]" type='text'>
-      <input name="place[]" type='text'>
-      <input name="place[]" type='text'>
-      <input name="place[]" type='text'>
+  <div class="bucket">
+  
+    <div class="choice-bucket">
+      <h4 class="highlight">Where do you want to go for vacation?</h4>
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+      </div>
+      
+      <div class="choice-bucket">
+        <h4 class="highlight">Who is your best friend?</h4>
+          <input name="profession[]" type="text">
+          <input name="profession[]" type="text">
+          <input name="profession[]" type="text">
+          <input name="profession[]" type="text">
+      </div>
+      
+     <div class="choice-bucket">
+        <h4 class="highlight">What do you want for Christmas?</h4>
+          <input name="pet[]" type="text">
+          <input name="pet[]" type="text">
+          <input name="pet[]" type="text">
+          <input name="pet[]" type="text">
+      </div>
+
   </div>
 
- <div class="choice-bucket">
-    <h4 class="highlight">What do you want for Christmas?</h4>
-      <input name="present[]" type='text'>
-      <input name="present[]" type='text'>
-      <input name="present[]" type='text'>
-      <input name="present[]" type='text'>
-  </div>
-
-</div>
-
- <div id="result"><input class="result" type="submit" value="Tell my fortune"></div>
-
-</form>  
-<script src=""></script>
+  <input class='result' type="submit" value="Tell my fortune">
+</form>
+<script src="script.js"></script>
 </body>
 </html>
-
