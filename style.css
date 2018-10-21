@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 html{
 	background-image: radial-gradient(circle, white, #84CEEB, #c1c8e4, #8860D0);
@@ -89,4 +90,96 @@ h4{
 .show {
   opacity: 1;
   height: 100%; 
+=======
+
+html{
+	background-image: radial-gradient(circle, white, #84CEEB, #c1c8e4, #8860D0);
+	/*background:#c1c8e4;*/
+	font-family: 'Mali', cursive;
+	text-align: center;
+}
+
+/* Logo Styling */
+.logo{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Game Directions */
+.description {
+   margin: 80px auto 40px;
+}
+
+input{
+	padding: 1em;
+	margin: 0 0.5em;
+	border:0.12em #8860D0 solid;
+	border-radius: 0.15em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer; 
+
+}
+
+.highlight {
+  font-size: 1.5em;
+  line-height: 24px;
+  margin-left: 30px;
+  opacity: .8;
+}
+
+.result {
+	margin:2em;
+	padding:0.7em;
+	font-size: 2em;
+	color:white;
+	background: #c1c8e4;
+	font-family: 'Mali', cursive;
+}
+.result:hover{
+	 background-image: linear-gradient(to right, #5AB9EA , #84CEEB);
+}
+
+
+p{
+	font-size: 2em;
+}
+h4{
+	font-size: 1.2em;
+}
+
+#answers {
+  margin: 60px 0;
+  background: #fff;
+  border-radius: 6px;
+  color: #5680E9;
+  transition: 1s linear;
+}
+
+#answers p {
+  max-width: 560px;
+  margin: auto;
+  padding: 80px 0;
+}
+
+
+#answers p span {
+  font-weight: bold;
+}
+
+
+.hide {
+  opacity: 0;
+  height: 0;
+}
+
+.show {
+  opacity: 1;
+  height: 100%; 
+>>>>>>> 73cb6c6789295409bca69d5e149a008a5016d261
 }
