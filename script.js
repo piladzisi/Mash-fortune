@@ -6,7 +6,7 @@ function random_number(num) {  // New function called random_choice that takes o
 
 function mash_choice() {  // New function called mash_choice that doesn't take any parameters 
     // Since MASH is a special case, give it its own list
-    var mash = ['mansion', 'apartment', 'shack', 'house'];  // The array of choices to pick from 
+    var mash = ['Broom', 'Wand', 'Invisibility clock', 'flu powder'];  // The array of choices to pick from 
     var randomNum = random_number(4);  // Use the above function to get a number between 0 and 4
     return mash[randomNum];  // Return the list item the random number function just picked and exit the function 
 }
