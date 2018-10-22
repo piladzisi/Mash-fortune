@@ -6,8 +6,8 @@ function random_number(num) {  // New function called random_choice that takes o
 
 function mash_choice() {  // New function called mash_choice that doesn't take any parameters 
     // Since MASH is a special case, give it its own list
-    var mash = ['Broom', 'Wand', 'Invisibility clock', 'flu powder'];  // The array of choices to pick from 
-    var randomNum = random_number(4);  // Use the above function to get a number between 0 and 4
+    var mash = ['Broom', 'Wand', 'Invisibility cloak', 'Flu powder', 'Riddle diary'];  // The array of choices to pick from 
+    var randomNum = random_number(5);  // Use the above function to get a number between 0 and 4
     return mash[randomNum];  // Return the list item the random number function just picked and exit the function 
 }
 
@@ -66,3 +66,4 @@ function handle_submission(evt) {
 // Find the form on the page and attach a handler for when it's submitted
 var form = document.querySelector('#mash');  
 form.addEventListener('submit', handle_submission);  // Anytime the form is submitted, we want to call the function handle_submission 
+
